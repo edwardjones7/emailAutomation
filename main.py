@@ -6,8 +6,8 @@ import pandas as pd
 def send_email(subject, body, to_emails):
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    email = 'edwardjonescontact@gmail.com'
-    password = 'uchw pcra uznj qtpl'
+    email = ''
+    password = ''
     
     try:
         # Establish a secure session with the server
@@ -38,7 +38,7 @@ def send_email(subject, body, to_emails):
 if __name__ == "__main__":
 
     portfolioLink = "Portfolio" 
-    url = "https://edsthecreator.com" 
+    url = "" 
     portfolio = f'<a href="{url}">{portfolioLink}</a>'
 
     instagramLink = "Instagram" 
@@ -62,9 +62,9 @@ if __name__ == "__main__":
         <p>{portfolio}<br>{instagram}</p>
 
         <p>Best regards,<br> 
-        Edward Jones<br>
-        (856)834-0605<br>
-        <a href="mailto:edwardjonescontact@gmail.com">edwardjonescontact@gmail.com</a></p>
+        <br>
+        (856)<br>
+        <a href="mailto:"></a></p>
     </body>
     </html>
     """
